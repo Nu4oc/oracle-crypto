@@ -94,7 +94,7 @@
 
    * Cấp quyền: Gửi tin nhắn, Gửi file, Nhúng link.
    * Mời bot qua link sau:
-     🔗 [Mời bot vào server của bạn](https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot+applications.commands&permissions=274878219264)
+     🔗 [Mời bot vào server của bạn](https://discord.com/oauth2/authorize?client_id=1355517898394697808&permissions=35840&integration_type=0&scope=bot)
 
 2. **Thiết lập kênh báo cáo**
 
@@ -154,32 +154,6 @@
 
 ---
 
-## Đóng Góp
-
-1. Fork repository này.
-
-2. Tạo branch mới:
-
-   ```bash
-   git checkout -b feature/your-feature
-   ```
-
-3. Commit thay đổi:
-
-   ```bash
-   git commit -m "Thêm tính năng XYZ"
-   ```
-
-4. Push lên branch:
-
-   ```bash
-   git push origin feature/your-feature
-   ```
-
-5. Tạo Pull Request trên GitHub để mình xem xét và merge.
-
----
-
 ## Giấy Phép
 
 ```
@@ -194,12 +168,9 @@ Bot được xây dựng với ❤️ bởi **ChatGPT**.
 ## Hosting Đề Xuất
 
 Bạn chưa có nơi chạy bot 24/7? Dùng thử dịch vụ hosting giá rẻ:
-🌐 [Mua hosting tại đây](https://your-hosting-provider.com)
+🌐 [Mua hosting tại đây]([HVMCloud](https://hvmcloud.net/))
 
-> Hỗ trợ Node.js, auto restart khi lỗi, uptime cao, chỉ từ 19k/tháng.
+> Hỗ trợ Node.js, auto restart khi lỗi, uptime cao, chỉ từ 9k/tháng (0.38$ / month)
 
 ---
 
-Bạn cần thêm hỗ trợ hoặc có câu hỏi? Hãy tạo issue trên GitHub hoặc liên hệ qua Discord!
-📨 **Liên hệ Discord:** `yourname#0000`
-📁 **GitHub:** [Link đến repo GitHub của bạn](https://github.com/your-repo)
