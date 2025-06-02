@@ -182,3 +182,4 @@ MIT License
 ```
 
 Xem file `LICENSE` để biết thêm chi tiết.
+Bot được xây dựng với ❤️ bởi ChatGPT.
