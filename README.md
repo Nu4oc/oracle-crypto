@@ -1,9 +1,3 @@
-Dưới đây là phiên bản đã chỉnh sửa theo yêu cầu của bạn:
-
----
-
-# Bot Báo Giá Tiền Điện Tử
-
 ## Giới Thiệu
 
 Đây là một bot Discord giúp theo dõi giá tiền điện tử, chuyển đổi VND sang tiền điện tử, và gửi ảnh ngẫu nhiên. Bot sử dụng API CoinGecko để lấy giá tiền điện tử và ExchangeRate để chuyển đổi tiền tệ. Bot được viết bằng Node.js và thư viện `discord.js`, dễ dàng thiết lập và sử dụng.
