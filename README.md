@@ -1,3 +1,7 @@
+Dưới đây là phiên bản đã chỉnh sửa theo yêu cầu của bạn:
+
+---
+
 # Bot Báo Giá Tiền Điện Tử
 
 ## Giới Thiệu
@@ -15,6 +19,7 @@
 * **Thông tin bot**: Xem thời gian hoạt động, dung lượng ổ đĩa, số server.
 * **Ảnh ngẫu nhiên**: Gửi ảnh từ thư mục `goon` qua lệnh `/goon`.
 * **Nút tương tác**: Xem chi tiết đồng tiền hoặc mở ví trên Remitano.
+* **Mời bot dễ dàng**: Link invite bot được cung cấp bên dưới.
 
 ---
 
@@ -25,7 +30,7 @@
 * **Token Discord**: Lấy từ Discord Developer Portal.
 * **File cấu hình**:
 
-  * `popularCoins.json`: Danh sách đồng tiền (ví dụ:
+  * `popularCoins.json`: Danh sách đồng tiền (ví dụ):
 
     ```json
     [
@@ -33,6 +38,7 @@
       { "id": "ethereum", "symbol": "eth", "name": "Ethereum" }
     ]
     ```
+
   * Thư mục `goon`: Chứa ảnh `.png`, `.jpg`, hoặc `.gif` cho lệnh `/goon`.
 
 ---
@@ -53,7 +59,6 @@
    ```
 
 3. **Tạo file `.env`**
-   Tạo file `.env` và thêm token Discord:
 
    ```
    DISCORD_TOKEN=your_discord_bot_token
@@ -94,6 +99,8 @@
 1. **Mời bot vào server Discord**
 
    * Cấp quyền: Gửi tin nhắn, Gửi file, Nhúng link.
+   * Mời bot qua link sau:
+     🔗 [Mời bot vào server của bạn](https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot+applications.commands&permissions=274878219264)
 
 2. **Thiết lập kênh báo cáo**
 
@@ -156,21 +163,25 @@
 ## Đóng Góp
 
 1. Fork repository này.
+
 2. Tạo branch mới:
 
    ```bash
    git checkout -b feature/your-feature
    ```
+
 3. Commit thay đổi:
 
    ```bash
    git commit -m "Thêm tính năng XYZ"
    ```
+
 4. Push lên branch:
 
    ```bash
    git push origin feature/your-feature
    ```
+
 5. Tạo Pull Request trên GitHub để mình xem xét và merge.
 
 ---
@@ -182,4 +193,19 @@ MIT License
 ```
 
 Xem file `LICENSE` để biết thêm chi tiết.
-Bot được xây dựng với ❤️ bởi ChatGPT.
+Bot được xây dựng với ❤️ bởi **ChatGPT**.
+
+---
+
+## Hosting Đề Xuất
+
+Bạn chưa có nơi chạy bot 24/7? Dùng thử dịch vụ hosting giá rẻ:
+🌐 [Mua hosting tại đây](https://your-hosting-provider.com)
+
+> Hỗ trợ Node.js, auto restart khi lỗi, uptime cao, chỉ từ 19k/tháng.
+
+---
+
+Bạn cần thêm hỗ trợ hoặc có câu hỏi? Hãy tạo issue trên GitHub hoặc liên hệ qua Discord!
+📨 **Liên hệ Discord:** `yourname#0000`
+📁 **GitHub:** [Link đến repo GitHub của bạn](https://github.com/your-repo)
